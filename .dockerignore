@@ -1,0 +1,28 @@
+# Dockerignore file:
+#   This file should contain ALL paths that should be ignored
+#   by CI when building final Docker image. 
+
+# Dot files
+.gitignore
+.dockerignore
+.git
+
+# Docker-related files
+docker-compose.yml
+Dockerfile*
+
+# Docs
+README.md
+
+# System files
+.DS_Store
+node_modules
+
+.env
+
+dev/.bash_history
+dev/.local.env
+dev/Dockerfile
+
+dist
+coverage
